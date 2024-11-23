@@ -1,0 +1,63 @@
+[
+    {
+      "product_id": "P001",
+      "name": "Classic Leather Wallet",
+      "category": "Accessories",
+      "price": 1200,
+      
+      "description": "Premium leather wallet with multiple compartments for cards and cash.",
+      "image_url": "https://i.ibb.co.com/BK5WkKc/Wallet.webp",
+      "stock_quantity": 50,
+      "rating": 4.5,
+      "reviews": 150
+    },
+    {
+      "product_id": "P002",
+      "name": "Cotton Saree - Traditional Bangladeshi",
+      "category": "Clothing",
+      "price": 2500,
+      
+      "description": "Beautiful handwoven cotton saree perfect for festive occasions.",
+      "image_url": "https://i.ibb.co.com/5TW3q87/Saree.webp",
+      "stock_quantity": 20,
+      "rating": 4.8,
+      "reviews": 90
+    },
+    {
+      "product_id": "P003",
+      "name": "Smartphone - Galaxy A13",
+      "category": "Electronics",
+      "price": 18000,
+      
+      "description": "Feature-packed smartphone with a powerful camera and sleek design.",
+      "image_url": "https://i.ibb.co.com/n1swRQW/Eksheba-Products.webp",
+      "stock_quantity": 100,
+      "rating": 4.3,
+      "reviews": 300
+    },
+    {
+      "product_id": "P004",
+      "name": "Electric Kettle - 1.5L",
+      "category": "Home Appliances",
+      "price": 2200,
+      
+      "description": "Durable and efficient electric kettle with automatic shut-off.",
+      "image_url": "https://i.ibb.co.com/n1swRQW/Eksheba-Products.webp",
+      "stock_quantity": 75,
+      "rating": 4.6,
+      "reviews": 210
+    },
+    {
+      "product_id": "P005",
+      "name": "Children's Storybook - Bangla Fairy Tales",
+      "category": "Books",
+      "price": 350,
+      
+      "description": "A delightful collection of classic Bangla fairy tales for kids.",
+      "image_url": "https://i.ibb.co.com/n1swRQW/Eksheba-Products.webp",
+      "stock_quantity": 40,
+      "rating": 4.9,
+      "reviews": 60
+    }
+  ]
+  

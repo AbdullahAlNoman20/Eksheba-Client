@@ -1,0 +1,53 @@
+[
+    {
+      "review_id": "R001",
+      "user_name": "Rahim Ahmed",
+      "rating": 5,
+      "review_text": "Excellent product quality and prompt delivery. Highly recommend EkSheba for all your shopping needs!",
+      "date": "2024-11-01",
+      "product_id": "P001",
+      "location": "Dhaka, Bangladesh",
+      "user_photo": "https://example.com/photos/rahim.jpg"
+    },
+    {
+      "review_id": "R002",
+      "user_name": "Fatema Begum",
+      "rating": 4,
+      "review_text": "Great experience shopping on EkSheba. The saree I purchased was beautiful, but delivery could have been faster.",
+      "date": "2024-11-05",
+      "product_id": "P002",
+      "location": "Chittagong, Bangladesh",
+      "user_photo": "https://example.com/photos/fatema.jpg"
+    },
+    {
+      "review_id": "R003",
+      "user_name": "Tanvir Islam",
+      "rating": 5,
+      "review_text": "The smartphone I bought works perfectly. Affordable prices and excellent customer support!",
+      "date": "2024-11-08",
+      "product_id": "P003",
+      "location": "Sylhet, Bangladesh",
+      "user_photo": "https://example.com/photos/tanvir.jpg"
+    },
+    {
+      "review_id": "R004",
+      "user_name": "Mariam Akhter",
+      "rating": 5,
+      "review_text": "The electric kettle is fantastic! Works as advertised, and the branding is a nice touch. Very satisfied.",
+      "date": "2024-11-10",
+      "product_id": "P004",
+      "location": "Rajshahi, Bangladesh",
+      "user_photo": "https://example.com/photos/mariam.jpg"
+    },
+    {
+      "review_id": "R005",
+      "user_name": "Jamal Uddin",
+      "rating": 4.5,
+      "review_text": "My kids loved the Bangla fairy tale storybook. It's well-illustrated and a delightful read for children.",
+      "date": "2024-11-15",
+      "product_id": "P005",
+      "location": "Khulna, Bangladesh",
+      "user_photo": "https://example.com/photos/jamal.jpg"
+    }
+  ]
+  
