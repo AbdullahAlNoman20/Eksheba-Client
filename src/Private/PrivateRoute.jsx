@@ -9,13 +9,14 @@ const PrivateRoute = ({ children }) => {
   const location = useLocation();
 // console.log(location.pathname)
 
-  if (loading) {
-    return <Loading></Loading>
-  }
+  
   if (user) {
     return children;
   }
-  return <Navigate state={location.pathname} replace={true} to="/login"></Navigate>;
+  if (loading) {
+    return <Loading></Loading>
+  }
+  return <Navigate to="/login" state={{from: location}} replace={true} ></Navigate>;
 };
 
 PrivateRoute.propTypes = {

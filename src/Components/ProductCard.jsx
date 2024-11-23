@@ -9,7 +9,7 @@ const ProductCard = ({product}) => {
             <section className=" p-5">
         <div className="card bg-base-100 shadow-xl border h-[400px]">
           <figure className="px-10 pt-10">
-            <img src={image_url} alt="photo" className="rounded-xl h-32 " />
+            <img src={image_url} alt="photo" className="rounded-xl lg:h-60 " />
           </figure>
           <div className="card-body items-center text-center">
             <h2 className="card-title">{name}</h2>

@@ -1,5 +1,5 @@
-import { NavLink, useLocation, useNavigate } from "react-router-dom";
-import { ToastContainer, toast } from "react-toastify";
+import { NavLink, useNavigate } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 import UseAuth from "../Hooks/UseAuth";
 import { useForm } from "react-hook-form";
 import axios from "axios";

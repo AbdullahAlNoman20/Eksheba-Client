@@ -4,13 +4,16 @@ import UseAuth from "../Hooks/UseAuth";
 
 const Sidebar = () => {
   const userData = UseUserData();
-  console.log(userData);
+ 
 
-  const { logOut } = UseAuth();
+  const { logOut,user } = UseAuth();
+  console.log(userData);
   return (
     <div className="bg-orange-300 border-r border-black min-h-screen h-full px-8 py-12 flex flex-col justify-between gap-2">
       <div className="">
-        <h1 className="text-3xl font-bold mb-8">EkSheba <i className="fas fa-dice-one    "></i></h1>
+        <h1 className="text-3xl font-bold mb-8">
+          EkSheba <i className="fas fa-dice-one    "></i>
+        </h1>
         <ul className="flex flex-col gap-4">
           <li className="btn ">
             <NavLink to="/dashboard/overview">
@@ -18,7 +21,7 @@ const Sidebar = () => {
             </NavLink>
           </li>
 
-          {/* {userData.role === "seller" && (
+          {/* {user.role === "seller" && (
             <>
               <li className="btn">
                 <NavLink to="/dashboard/myProducts">

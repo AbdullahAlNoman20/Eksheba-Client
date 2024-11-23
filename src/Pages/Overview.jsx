@@ -4,7 +4,7 @@ const Overview = () => {
     const {user} = UseAuth();
     return (
         <div>
-            Overview For:
+            Overview For: {user.email}
         </div>
     );
 };

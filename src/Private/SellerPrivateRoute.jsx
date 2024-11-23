@@ -1,4 +1,5 @@
 import { Navigate, useLocation } from "react-router-dom";
+import PropTypes from "prop-types";
 import UseAuth from "../Hooks/UseAuth";
 import Loading from "../Pages/Loading";
 import UseUserData from "../Hooks/UseUserData";
@@ -9,13 +10,17 @@ const SellerPrivateRoute = ({ children }) => {
     const location = useLocation();
   // console.log(location.pathname)
   
-    if (loading || !userData.role) {
+  if (user && userData.role === "seller") {
+    return children;
+  }
+  if (loading || !userData.role) {
       return <Loading></Loading>
     }
-    if (user && userData.role === "seller") {
-      return children;
-    }
-    return <Navigate to="/" state={{from:location}} replace={true} ></Navigate>;
+    return <Navigate to="/login" state={{from:location}} replace={true} ></Navigate>;
+  };
+
+  SellerPrivateRoute.propTypes = {
+    children: PropTypes.object,
   };
 
 export default SellerPrivateRoute;

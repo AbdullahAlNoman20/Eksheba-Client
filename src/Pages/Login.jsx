@@ -1,6 +1,6 @@
 
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer} from "react-toastify";
 // import axios from "axios";
 import UseAuth from "../Hooks/UseAuth";
 import { useForm } from "react-hook-form";
@@ -16,38 +16,6 @@ const Login = () => {
     signInUser(data.email,data.password)
     navigate("/")
   }
-
-  const location = useLocation();
-  const from = location.state || "/";
-
-  // User Login
-  // const handleLogin = (e) => {
-  //   e.preventDefault();
-  //   const email = e.target.email.value;
-  //   const password = e.target.password.value;
-  //   // console.log(email, password);
-
-  //   signInUser(email, password)
-  //     .then((result) => {
-  //       // console.log(result.user);
-  //       e.target.reset();
-  //       toast.success("Login Successfully");
-  //       navigate(from, { replace: true });
-  //       // Get Access Token
-  //       const user = { email };
-  //       axios
-  //         .post("http://localhost:5000/jwt", user, { withCredentials: true })
-  //         .then((res) => {
-  //           console.log(res.data);
-  //           if (res.data.success) {
-  //             navigate(location?.state ? location?.state : "/");
-  //           }
-  //         });
-  //     })
-  //     .catch((error) => {
-  //       console.error(error);
-  //     });
-  // };
 
   // Google Login
   const handleGoogleLogin = () => {
